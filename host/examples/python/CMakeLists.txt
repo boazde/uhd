@@ -19,6 +19,7 @@ SET(python_examples
     pyuhd_rx_to_file.py
     pyuhd_tx_waveforms.py
     pyuhd_curses_fft.py
+    pyuhd_benchmark_rate.py
 )
 
 UHD_INSTALL(PROGRAMS ${python_examples} DESTINATION ${PKG_LIB_DIR}/examples COMPONENT examples)
